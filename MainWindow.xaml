@@ -1,0 +1,17 @@
+﻿<Window x:Class="ExcelConvert.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExcelConvert"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="Convert1">
+        <Label Content="Instruction" HorizontalAlignment="Left" Margin="200,114,0,0" VerticalAlignment="Top" Width="120" BorderBrush="#FF2D2929" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Input File" HorizontalAlignment="Left" Margin="200,170,0,0" VerticalAlignment="Top" Width="120" BorderBrush="#FF2D2929" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="Instruction" Content="Instruction" HorizontalAlignment="Left" Margin="400,114,0,0" VerticalAlignment="Top" Click="Instruction_Click" Width="125" Height="29" FontStyle="Italic"/>
+        <Button x:Name="Input" Content="Input" HorizontalAlignment="Left" Margin="400,170,0,0" VerticalAlignment="Top" Width="125" Height="29" Click="Input_Click" FontStyle="Italic"/>
+        <Button x:Name="Convert" Content="Convert" HorizontalAlignment="Left" Margin="420,269,0,0" VerticalAlignment="Top" Height="35" Width="85" Click="Convert_Click" FontWeight="Bold" FontStyle="Italic"/>
+
+    </Grid>
+</Window>
